@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>So Sánh on Blog Lập Trình Mạng</title>
+    <link>https://ngcdt.github.io/bmtt_blog/tags/so-s%C3%A1nh/</link>
+    <description>Recent content in So Sánh on Blog Lập Trình Mạng</description>
+    <generator>Hugo</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Tue, 30 Dec 2025 12:46:00 +0700</lastBuildDate>
+    <atom:link href="https://ngcdt.github.io/bmtt_blog/tags/so-s%C3%A1nh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>So sánh: Java vs JavaScript trong lập trình mạng</title>
+      <link>https://ngcdt.github.io/bmtt_blog/blog/java-vs-javascript/</link>
+      <pubDate>Tue, 30 Dec 2025 12:46:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/blog/java-vs-javascript/</guid>
+      <description>&lt;p&gt;Java và JavaScript đều có chỗ đứng trong phát triển ứng dụng mạng, nhưng phục vụ các mục tiêu khác nhau:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Java: phù hợp cho server backend, ứng dụng doanh nghiệp, xử lý đa luồng, hiệu năng ổn định. Thư viện mạng mạnh mẽ, JVM tối ưu cho ứng dụng dài hạn.&lt;/li&gt;&#xA;&lt;li&gt;JavaScript (Node.js): phù hợp cho I/O-bound non-blocking server, phát triển nhanh, ecosystem nhiều package. Thích hợp cho microservice, real-time với WebSocket.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;So sánh nhanh:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

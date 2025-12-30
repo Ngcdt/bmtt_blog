@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Node.js on Blog Lập Trình Mạng</title>
+    <link>https://ngcdt.github.io/bmtt_blog/tags/node.js/</link>
+    <description>Recent content in Node.js on Blog Lập Trình Mạng</description>
+    <generator>Hugo</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Tue, 30 Dec 2025 12:26:00 +0700</lastBuildDate>
+    <atom:link href="https://ngcdt.github.io/bmtt_blog/tags/node.js/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript: Node.js — Xây dựng server đơn giản</title>
+      <link>https://ngcdt.github.io/bmtt_blog/posts/js-course-4/</link>
+      <pubDate>Tue, 30 Dec 2025 12:26:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/posts/js-course-4/</guid>
+      <description>&lt;p&gt;Ví dụ: server lắng nghe cổng, trả HTML/JSON và xử lý route cơ bản.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

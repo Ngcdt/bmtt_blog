@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Blog Lập Trình Mạng</title>
+    <link>https://ngcdt.github.io/bmtt_blog/categories/</link>
+    <description>Recent content in Categories on Blog Lập Trình Mạng</description>
+    <generator>Hugo</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Tue, 30 Dec 2025 12:46:00 +0700</lastBuildDate>
+    <atom:link href="https://ngcdt.github.io/bmtt_blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java</title>
+      <link>https://ngcdt.github.io/bmtt_blog/categories/java/</link>
+      <pubDate>Tue, 30 Dec 2025 12:46:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/categories/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JavaScript</title>
+      <link>https://ngcdt.github.io/bmtt_blog/categories/javascript/</link>
+      <pubDate>Tue, 30 Dec 2025 12:46:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/categories/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mạng</title>
+      <link>https://ngcdt.github.io/bmtt_blog/categories/m%E1%BA%A1ng/</link>
+      <pubDate>Tue, 30 Dec 2025 12:34:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/categories/m%E1%BA%A1ng/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

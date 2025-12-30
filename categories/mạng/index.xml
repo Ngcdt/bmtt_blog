@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mạng on Blog Lập Trình Mạng</title>
+    <link>https://ngcdt.github.io/bmtt_blog/categories/m%E1%BA%A1ng/</link>
+    <description>Recent content in Mạng on Blog Lập Trình Mạng</description>
+    <generator>Hugo</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Tue, 30 Dec 2025 12:34:00 +0700</lastBuildDate>
+    <atom:link href="https://ngcdt.github.io/bmtt_blog/categories/m%E1%BA%A1ng/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java: UDP và lập trình không kết nối</title>
+      <link>https://ngcdt.github.io/bmtt_blog/blog/java-udp/</link>
+      <pubDate>Tue, 30 Dec 2025 12:34:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/blog/java-udp/</guid>
+      <description>&lt;p&gt;UDP (User Datagram Protocol) là giao thức không kết nối, phù hợp cho các ứng dụng cần tốc độ và chấp nhận mất mát dữ liệu (ví dụ streaming, game).&lt;/p&gt;&#xA;&lt;p&gt;Nội dung bài:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Sự khác nhau giữa TCP và UDP&lt;/li&gt;&#xA;&lt;li&gt;Lớp &lt;code&gt;DatagramSocket&lt;/code&gt; và &lt;code&gt;DatagramPacket&lt;/code&gt; trong Java&lt;/li&gt;&#xA;&lt;li&gt;Ví dụ gửi/nhận datagram, quản lý kích thước gói và xử lý mất mát&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Áp dụng thực tế: đo lường hiệu năng và lựa chọn giao thức phù hợp cho từng bài toán.&#xA;Giải thích về UDP, DatagramSocket và ví dụ gửi/nhận.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Java: Socket TCP — Client/Server</title>
+      <link>https://ngcdt.github.io/bmtt_blog/blog/java-socket-tcp/</link>
+      <pubDate>Tue, 30 Dec 2025 12:32:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/blog/java-socket-tcp/</guid>
+      <description>&lt;p&gt;TCP (Transmission Control Protocol) cung cấp kết nối tin cậy giữa hai endpoint. Trong Java, &lt;code&gt;ServerSocket&lt;/code&gt; và &lt;code&gt;Socket&lt;/code&gt; là hai lớp cốt lõi để xây dựng ứng dụng TCP.&lt;/p&gt;&#xA;&lt;p&gt;Nội dung chính:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Tạo &lt;code&gt;ServerSocket&lt;/code&gt; lắng nghe cổng, chấp nhận kết nối và spawn thread xử lý từng client.&lt;/li&gt;&#xA;&lt;li&gt;Tạo &lt;code&gt;Socket&lt;/code&gt; ở phía client, nối đến server và trao đổi dữ liệu bằng luồng Input/Output.&lt;/li&gt;&#xA;&lt;li&gt;Xử lý timeout, đóng kết nối an toàn và quản lý lỗi I/O.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Ví dụ kèm mã nguồn minh hoạ server đa luồng và client đơn giản để bạn thực hành.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript: Node.js — Xây dựng server đơn giản</title>
+      <link>https://ngcdt.github.io/bmtt_blog/posts/js-course-4/</link>
+      <pubDate>Tue, 30 Dec 2025 12:26:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/posts/js-course-4/</guid>
+      <description>&lt;p&gt;Ví dụ: server lắng nghe cổng, trả HTML/JSON và xử lý route cơ bản.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Java: Lập trình mạng cơ bản với Sockets</title>
+      <link>https://ngcdt.github.io/bmtt_blog/posts/java-course-4/</link>
+      <pubDate>Tue, 30 Dec 2025 12:16:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/posts/java-course-4/</guid>
+      <description>&lt;p&gt;Ví dụ: tạo server lắng nghe kết nối, client kết nối và trao đổi dữ liệu.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

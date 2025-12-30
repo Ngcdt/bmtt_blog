@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on Blog Lập Trình Mạng</title>
+    <link>https://ngcdt.github.io/bmtt_blog/tags/java/</link>
+    <description>Recent content in Java on Blog Lập Trình Mạng</description>
+    <generator>Hugo</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Tue, 30 Dec 2025 12:46:00 +0700</lastBuildDate>
+    <atom:link href="https://ngcdt.github.io/bmtt_blog/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>So sánh: Java vs JavaScript trong lập trình mạng</title>
+      <link>https://ngcdt.github.io/bmtt_blog/blog/java-vs-javascript/</link>
+      <pubDate>Tue, 30 Dec 2025 12:46:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/blog/java-vs-javascript/</guid>
+      <description>&lt;p&gt;Java và JavaScript đều có chỗ đứng trong phát triển ứng dụng mạng, nhưng phục vụ các mục tiêu khác nhau:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Java: phù hợp cho server backend, ứng dụng doanh nghiệp, xử lý đa luồng, hiệu năng ổn định. Thư viện mạng mạnh mẽ, JVM tối ưu cho ứng dụng dài hạn.&lt;/li&gt;&#xA;&lt;li&gt;JavaScript (Node.js): phù hợp cho I/O-bound non-blocking server, phát triển nhanh, ecosystem nhiều package. Thích hợp cho microservice, real-time với WebSocket.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;So sánh nhanh:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Java: Xử lý đa luồng trong ứng dụng mạng</title>
+      <link>https://ngcdt.github.io/bmtt_blog/blog/java-multithreading/</link>
+      <pubDate>Tue, 30 Dec 2025 12:36:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/blog/java-multithreading/</guid>
+      <description>&lt;p&gt;Đa luồng là thành phần thiết yếu khi xây dựng server hiệu năng cao. Bài viết này trình bày:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Khái niệm &lt;code&gt;Thread&lt;/code&gt; và &lt;code&gt;Runnable&lt;/code&gt; trong Java&lt;/li&gt;&#xA;&lt;li&gt;Sử dụng &lt;code&gt;ExecutorService&lt;/code&gt; để quản lý pool thread&lt;/li&gt;&#xA;&lt;li&gt;Đồng bộ hoá dữ liệu chia sẻ, tránh race condition bằng &lt;code&gt;synchronized&lt;/code&gt; và &lt;code&gt;Concurrent&lt;/code&gt; collections&lt;/li&gt;&#xA;&lt;li&gt;Thiết kế server đa luồng: accept loop, worker threads và xử lý I/O không đồng bộ&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Kèm theo bài tập: xây dựng thread-pool server xử lý nhiều client đồng thời.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Java: UDP và lập trình không kết nối</title>
+      <link>https://ngcdt.github.io/bmtt_blog/blog/java-udp/</link>
+      <pubDate>Tue, 30 Dec 2025 12:34:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/blog/java-udp/</guid>
+      <description>&lt;p&gt;UDP (User Datagram Protocol) là giao thức không kết nối, phù hợp cho các ứng dụng cần tốc độ và chấp nhận mất mát dữ liệu (ví dụ streaming, game).&lt;/p&gt;&#xA;&lt;p&gt;Nội dung bài:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Sự khác nhau giữa TCP và UDP&lt;/li&gt;&#xA;&lt;li&gt;Lớp &lt;code&gt;DatagramSocket&lt;/code&gt; và &lt;code&gt;DatagramPacket&lt;/code&gt; trong Java&lt;/li&gt;&#xA;&lt;li&gt;Ví dụ gửi/nhận datagram, quản lý kích thước gói và xử lý mất mát&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Áp dụng thực tế: đo lường hiệu năng và lựa chọn giao thức phù hợp cho từng bài toán.&#xA;Giải thích về UDP, DatagramSocket và ví dụ gửi/nhận.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Java: Socket TCP — Client/Server</title>
+      <link>https://ngcdt.github.io/bmtt_blog/blog/java-socket-tcp/</link>
+      <pubDate>Tue, 30 Dec 2025 12:32:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/blog/java-socket-tcp/</guid>
+      <description>&lt;p&gt;TCP (Transmission Control Protocol) cung cấp kết nối tin cậy giữa hai endpoint. Trong Java, &lt;code&gt;ServerSocket&lt;/code&gt; và &lt;code&gt;Socket&lt;/code&gt; là hai lớp cốt lõi để xây dựng ứng dụng TCP.&lt;/p&gt;&#xA;&lt;p&gt;Nội dung chính:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Tạo &lt;code&gt;ServerSocket&lt;/code&gt; lắng nghe cổng, chấp nhận kết nối và spawn thread xử lý từng client.&lt;/li&gt;&#xA;&lt;li&gt;Tạo &lt;code&gt;Socket&lt;/code&gt; ở phía client, nối đến server và trao đổi dữ liệu bằng luồng Input/Output.&lt;/li&gt;&#xA;&lt;li&gt;Xử lý timeout, đóng kết nối an toàn và quản lý lỗi I/O.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Ví dụ kèm mã nguồn minh hoạ server đa luồng và client đơn giản để bạn thực hành.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Java: Lập trình mạng — Tổng quan</title>
+      <link>https://ngcdt.github.io/bmtt_blog/blog/java-lap-trinh-mang/</link>
+      <pubDate>Tue, 30 Dec 2025 12:30:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/blog/java-lap-trinh-mang/</guid>
+      <description>&lt;p&gt;Java là một ngôn ngữ phổ biến cho phát triển ứng dụng mạng nhờ thư viện chuẩn mạnh mẽ và nền tảng JVM ổn định. Bài viết này cung cấp:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Tổng quan về mô hình Client–Server&lt;/li&gt;&#xA;&lt;li&gt;Các lớp và API chính trong Java để làm việc với mạng (Socket, ServerSocket, DatagramSocket)&lt;/li&gt;&#xA;&lt;li&gt;Các lưu ý về bảo mật, timeout và xử lý lỗi kết nối&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Ví dụ minh họa và bài tập kèm theo giúp bạn nhanh chóng xây dựng ứng dụng client/server đơn giản.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Java: Xử lý đa luồng (Multithreading)</title>
+      <link>https://ngcdt.github.io/bmtt_blog/posts/java-course-5/</link>
+      <pubDate>Tue, 30 Dec 2025 12:18:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/posts/java-course-5/</guid>
+      <description>&lt;p&gt;Bài viết trình bày ví dụ tạo Thread, chia sẻ tài nguyên và tránh race condition.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Java: Lập trình mạng cơ bản với Sockets</title>
+      <link>https://ngcdt.github.io/bmtt_blog/posts/java-course-4/</link>
+      <pubDate>Tue, 30 Dec 2025 12:16:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/posts/java-course-4/</guid>
+      <description>&lt;p&gt;Ví dụ: tạo server lắng nghe kết nối, client kết nối và trao đổi dữ liệu.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Java: Collections và Generic</title>
+      <link>https://ngcdt.github.io/bmtt_blog/posts/java-course-3/</link>
+      <pubDate>Tue, 30 Dec 2025 12:14:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/posts/java-course-3/</guid>
+      <description>&lt;p&gt;Bài viết đi qua ArrayList, HashMap, HashSet và ví dụ ứng dụng.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Java: OOP cơ bản — Lớp, Đối tượng và Kế thừa</title>
+      <link>https://ngcdt.github.io/bmtt_blog/posts/java-course-2/</link>
+      <pubDate>Tue, 30 Dec 2025 12:12:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/posts/java-course-2/</guid>
+      <description>&lt;p&gt;Nội dung bài viết trình bày ví dụ minh họa class, method, constructor và kế thừa.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Java: Tổng quan và cài đặt môi trường</title>
+      <link>https://ngcdt.github.io/bmtt_blog/posts/java-course-1/</link>
+      <pubDate>Tue, 30 Dec 2025 12:10:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/posts/java-course-1/</guid>
+      <description>&lt;p&gt;Nội dung: Cài JDK, thiết lập PATH, chạy &lt;code&gt;javac&lt;/code&gt; và &lt;code&gt;java&lt;/code&gt;, viết chương trình Hello World.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

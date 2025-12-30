@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Blog Lập Trình Mạng</title>
+    <link>https://ngcdt.github.io/bmtt_blog/tags/</link>
+    <description>Recent content in Tags on Blog Lập Trình Mạng</description>
+    <generator>Hugo</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Tue, 30 Dec 2025 12:46:00 +0700</lastBuildDate>
+    <atom:link href="https://ngcdt.github.io/bmtt_blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java</title>
+      <link>https://ngcdt.github.io/bmtt_blog/tags/java/</link>
+      <pubDate>Tue, 30 Dec 2025 12:46:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JavaScript</title>
+      <link>https://ngcdt.github.io/bmtt_blog/tags/javascript/</link>
+      <pubDate>Tue, 30 Dec 2025 12:46:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/tags/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>So Sánh</title>
+      <link>https://ngcdt.github.io/bmtt_blog/tags/so-s%C3%A1nh/</link>
+      <pubDate>Tue, 30 Dec 2025 12:46:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/tags/so-s%C3%A1nh/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Async</title>
+      <link>https://ngcdt.github.io/bmtt_blog/tags/async/</link>
+      <pubDate>Tue, 30 Dec 2025 12:44:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/tags/async/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>API</title>
+      <link>https://ngcdt.github.io/bmtt_blog/tags/api/</link>
+      <pubDate>Tue, 30 Dec 2025 12:42:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/tags/api/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fetch</title>
+      <link>https://ngcdt.github.io/bmtt_blog/tags/fetch/</link>
+      <pubDate>Tue, 30 Dec 2025 12:42:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/tags/fetch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ES6</title>
+      <link>https://ngcdt.github.io/bmtt_blog/tags/es6/</link>
+      <pubDate>Tue, 30 Dec 2025 12:40:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/tags/es6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multithreading</title>
+      <link>https://ngcdt.github.io/bmtt_blog/tags/multithreading/</link>
+      <pubDate>Tue, 30 Dec 2025 12:36:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/tags/multithreading/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>UDP</title>
+      <link>https://ngcdt.github.io/bmtt_blog/tags/udp/</link>
+      <pubDate>Tue, 30 Dec 2025 12:34:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/tags/udp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Socket</title>
+      <link>https://ngcdt.github.io/bmtt_blog/tags/socket/</link>
+      <pubDate>Tue, 30 Dec 2025 12:32:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/tags/socket/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TCP</title>
+      <link>https://ngcdt.github.io/bmtt_blog/tags/tcp/</link>
+      <pubDate>Tue, 30 Dec 2025 12:32:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/tags/tcp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mạng</title>
+      <link>https://ngcdt.github.io/bmtt_blog/tags/m%E1%BA%A1ng/</link>
+      <pubDate>Tue, 30 Dec 2025 12:30:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/tags/m%E1%BA%A1ng/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Node.js</title>
+      <link>https://ngcdt.github.io/bmtt_blog/tags/node.js/</link>
+      <pubDate>Tue, 30 Dec 2025 12:26:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/tags/node.js/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Server</title>
+      <link>https://ngcdt.github.io/bmtt_blog/tags/server/</link>
+      <pubDate>Tue, 30 Dec 2025 12:26:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/tags/server/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AJAX</title>
+      <link>https://ngcdt.github.io/bmtt_blog/tags/ajax/</link>
+      <pubDate>Tue, 30 Dec 2025 12:24:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/tags/ajax/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DOM</title>
+      <link>https://ngcdt.github.io/bmtt_blog/tags/dom/</link>
+      <pubDate>Tue, 30 Dec 2025 12:24:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/tags/dom/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JS Cơ Bản</title>
+      <link>https://ngcdt.github.io/bmtt_blog/tags/js-c%C6%A1-b%E1%BA%A3n/</link>
+      <pubDate>Tue, 30 Dec 2025 12:20:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/tags/js-c%C6%A1-b%E1%BA%A3n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Collections</title>
+      <link>https://ngcdt.github.io/bmtt_blog/tags/collections/</link>
+      <pubDate>Tue, 30 Dec 2025 12:14:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/tags/collections/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OOP</title>
+      <link>https://ngcdt.github.io/bmtt_blog/tags/oop/</link>
+      <pubDate>Tue, 30 Dec 2025 12:12:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/tags/oop/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Khóa-Java-1</title>
+      <link>https://ngcdt.github.io/bmtt_blog/tags/kh%C3%B3a-java-1/</link>
+      <pubDate>Tue, 30 Dec 2025 12:10:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/tags/kh%C3%B3a-java-1/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

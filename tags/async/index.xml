@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Async on Blog Lập Trình Mạng</title>
+    <link>https://ngcdt.github.io/bmtt_blog/tags/async/</link>
+    <description>Recent content in Async on Blog Lập Trình Mạng</description>
+    <generator>Hugo</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Tue, 30 Dec 2025 12:44:00 +0700</lastBuildDate>
+    <atom:link href="https://ngcdt.github.io/bmtt_blog/tags/async/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript: Async/Await và xử lý bất đồng bộ</title>
+      <link>https://ngcdt.github.io/bmtt_blog/blog/javascript-async-await/</link>
+      <pubDate>Tue, 30 Dec 2025 12:44:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/blog/javascript-async-await/</guid>
+      <description>&lt;p&gt;Asynchronous là phần quan trọng trong phát triển web. Bài viết trình bày:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Promise: khái niệm, chaining và xử lý lỗi&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;async&lt;/code&gt; / &lt;code&gt;await&lt;/code&gt;: viết mã bất đồng bộ giống mã đồng bộ&lt;/li&gt;&#xA;&lt;li&gt;Kết hợp với &lt;code&gt;fetch&lt;/code&gt; và xử lý luồng dữ liệu&lt;/li&gt;&#xA;&lt;li&gt;Các lỗi phổ biến: unhandled promise, blocking UI, và cách debug&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Kèm ví dụ thực tế và bài tập để hiểu sâu về luồng bất đồng bộ.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

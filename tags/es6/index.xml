@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ES6 on Blog Lập Trình Mạng</title>
+    <link>https://ngcdt.github.io/bmtt_blog/tags/es6/</link>
+    <description>Recent content in ES6 on Blog Lập Trình Mạng</description>
+    <generator>Hugo</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Tue, 30 Dec 2025 12:40:00 +0700</lastBuildDate>
+    <atom:link href="https://ngcdt.github.io/bmtt_blog/tags/es6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript: ES6&#43; và cú pháp hiện đại</title>
+      <link>https://ngcdt.github.io/bmtt_blog/blog/javascript-es6/</link>
+      <pubDate>Tue, 30 Dec 2025 12:40:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/blog/javascript-es6/</guid>
+      <description>&lt;p&gt;ES6+ thay đổi cách viết JavaScript, giúp mã ngắn gọn và dễ đọc hơn. Nội dung:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;let&lt;/code&gt; / &lt;code&gt;const&lt;/code&gt; vs &lt;code&gt;var&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Arrow functions, template literals, default params&lt;/li&gt;&#xA;&lt;li&gt;Destructuring, rest/spread, và modules (import/export)&lt;/li&gt;&#xA;&lt;li&gt;Promise, async/await (liên quan tới phần bất đồng bộ)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Kèm ví dụ so sánh giữa cách cũ và cú pháp hiện đại để bạn luyện tập.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript: ES6&#43; và cú pháp hiện đại</title>
+      <link>https://ngcdt.github.io/bmtt_blog/posts/js-course-2/</link>
+      <pubDate>Tue, 30 Dec 2025 12:22:00 +0700</pubDate>
+      <guid>https://ngcdt.github.io/bmtt_blog/posts/js-course-2/</guid>
+      <description>&lt;p&gt;Ví dụ và so sánh với cú pháp cũ.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

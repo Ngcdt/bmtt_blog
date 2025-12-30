@@ -1,0 +1,261 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=JetBrains+Mono:wght@400;700&display=swap');
+
+:root {
+  /* Premium Dark Palette */
+  --bg-deep: #020617;
+  /* Very deep blue/black */
+  --bg-card: #1e293b;
+  /* Slate 800 */
+  --text-primary: #f8fafc;
+  /* Slate 50 */
+  --text-secondary: #94a3b8;
+  /* Slate 400 */
+  --accent-blue: #3b82f6;
+  /* Blue 500 */
+  --accent-purple: #8b5cf6;
+  /* Violet 500 */
+  --accent-cyan: #06b6d4;
+  /* Cyan 500 */
+  --border-subtle: rgba(255, 255, 255, 0.08);
+}
+
+/* Base Reset & Typography */
+body {
+  font-family: 'Outfit', sans-serif !important;
+  background-color: var(--bg-deep) !important;
+  color: var(--text-primary) !important;
+}
+
+/* Force Dark Backgrounds globally */
+.bg-white,
+.bg-near-white,
+.bg-light-gray,
+.bg-white-90 {
+  background-color: var(--bg-deep) !important;
+  color: var(--text-primary) !important;
+}
+
+/* Header / Hero */
+header.bg-black-90,
+.bg-black-90 {
+  background: rgba(2, 6, 23, 0.85) !important;
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+/* Hero Gradient Overlay */
+.cover {
+  position: relative;
+  border-bottom: 1px solid var(--accent-blue);
+}
+
+.cover::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(2, 6, 23, 0) 0%, rgba(2, 6, 23, 1) 100%);
+  pointer-events: none;
+}
+
+/* Text Colors */
+.black,
+.near-black,
+.dark-gray,
+.mid-gray,
+.gray {
+  color: var(--text-primary) !important;
+}
+
+.moon-gray,
+.light-gray {
+  color: var(--text-secondary) !important;
+}
+
+/* Avatar Fix: Force Circle */
+.br-100 {
+  border-radius: 50% !important;
+  width: 15rem !important;
+  /* Force large size */
+  height: 15rem !important;
+  /* Force matching height */
+  object-fit: cover !important;
+  /* Crop to fit square */
+  aspect-ratio: 1 / 1;
+  /* Enforce square aspect ratio */
+  border: 4px solid var(--accent-blue) !important;
+}
+
+/* Mobile Avatar Size */
+@media screen and (max-width: 60em) {
+  .br-100 {
+    width: 10rem !important;
+    height: 10rem !important;
+  }
+}
+
+
+/* Post Cards & Articles */
+article {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 2rem 0;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid var(--border-subtle);
+  /* Minimal divider */
+  transition: transform 0.2s ease;
+}
+
+article:hover {
+  transform: translateY(-2px);
+  /* Removed shadow and border for seamless look */
+}
+
+/* Links */
+a {
+  color: var(--accent-cyan) !important;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: var(--accent-purple) !important;
+}
+
+/* Navigation Links */
+.f6.fw6.hover-white:hover {
+  color: var(--accent-cyan) !important;
+}
+
+/* Buttons */
+.ba {
+  border-color: var(--accent-blue) !important;
+  background: transparent;
+  color: var(--accent-blue) !important;
+  border-radius: 999px;
+  padding: 0.5rem 1.5rem;
+}
+
+.ba:hover {
+  background: var(--accent-blue) !important;
+  color: white !important;
+}
+
+/* Code Blocks */
+pre,
+code {
+  background-color: #0f172a !important;
+  border-radius: 8px;
+  font-family: 'JetBrains Mono', monospace;
+  color: #e2e8f0 !important;
+}
+
+/* Footer */
+footer {
+  background-color: #020617 !important;
+  border-top: 1px solid var(--border-subtle);
+  padding: 3rem 1rem;
+}
+
+/* Custom Utilities */
+.text-primary {
+  color: var(--accent-cyan) !important;
+}
+
+/* Remove unwanted Ananke borders */
+.bb {
+  border-bottom: none !important;
+}
+
+/* Profile Layout Customization */
+.profile-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+@media (min-width: 48em) {
+  .profile-grid {
+    grid-template-columns: auto 1fr;
+    gap: 3rem;
+  }
+}
+
+.profile-avatar-container {
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-entrance {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Gradient Text */
+.text-gradient {
+  background: linear-gradient(to right, var(--accent-cyan), var(--accent-blue), var(--accent-purple));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+/* Skill Badges/Chips */
+.skill-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem 0.5rem 0;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-subtle);
+  border-radius: 9999px;
+  /* Pill shape */
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  transition: all 0.3s ease;
+}
+
+.skill-badge:hover {
+  background: rgba(59, 130, 246, 0.1);
+  /* Blue tint */
+  border-color: var(--accent-cyan);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(6, 182, 212, 0.2);
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+}
