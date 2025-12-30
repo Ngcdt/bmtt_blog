@@ -1,0 +1,29 @@
+baseURL = "https://USERNAME.github.io/REPO/"
+languageCode = "vi-VN"
+title = "Blog Lập trình mạng"
+theme = "ananke"
+enableRobotsTXT = true
+DefaultContentLanguage = "vi"
+
+[params]
+  description = "Blog cá nhân chia sẻ về lập trình mạng — Java & JavaScript"
+  author = "Tên Bạn"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 10
+
+[[menu.main]]
+  name = "Blog"
+  url = "/posts/"
+  weight = 20
+
+[[menu.main]]
+  name = "Profile"
+  url = "/profile/"
+  weight = 30
+
+paginate = 10
+
+

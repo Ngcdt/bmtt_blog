@@ -1,0 +1,45 @@
+baseURL = "https://ngcdt.github.io/bmtt_blog/"
+languageCode = "vi-vn"
+title = "Blog Lập Trình Mạng"
+theme = "ananke"
+
+[params]
+  author = "Trần Ngọc Đạt"
+  description = "Chuyên sâu về Lập trình mạng, Java & JavaScript"
+  # Premium Theme Settings
+  site_logo = "" # Optional: path to logo
+  background_color_class = "bg-near-black"
+  featured_image = "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop" # Code/Tech background
+  recent_posts_number = 3
+  custom_css = ["css/custom.css"]
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/ngcdt"
+  
+  [[params.social]]
+    name = "linkedin"
+    url = "https://linkedin.com"
+
+[[menu.main]]
+  name = "Trang Chủ"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Bài Viết"
+  url = "/blog/"
+  weight = 2
+
+
+[[menu.main]]
+  name = "Giới Thiệu"
+  url = "/about/"
+  weight = 3
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
