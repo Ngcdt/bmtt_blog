@@ -1,26 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Multithreading on Blog Lập Trình Mạng</title>
-    <link>https://ngcdt.github.io/bmtt_blog/tags/multithreading/</link>
-    <description>Recent content in Multithreading on Blog Lập Trình Mạng</description>
-    <generator>Hugo</generator>
-    <language>vi-vn</language>
-    <lastBuildDate>Tue, 30 Dec 2025 12:36:00 +0700</lastBuildDate>
-    <atom:link href="https://ngcdt.github.io/bmtt_blog/tags/multithreading/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Java: Xử lý đa luồng trong ứng dụng mạng</title>
-      <link>https://ngcdt.github.io/bmtt_blog/blog/java-multithreading/</link>
-      <pubDate>Tue, 30 Dec 2025 12:36:00 +0700</pubDate>
-      <guid>https://ngcdt.github.io/bmtt_blog/blog/java-multithreading/</guid>
-      <description>&lt;p&gt;Đa luồng là thành phần thiết yếu khi xây dựng server hiệu năng cao. Bài viết này trình bày:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Khái niệm &lt;code&gt;Thread&lt;/code&gt; và &lt;code&gt;Runnable&lt;/code&gt; trong Java&lt;/li&gt;&#xA;&lt;li&gt;Sử dụng &lt;code&gt;ExecutorService&lt;/code&gt; để quản lý pool thread&lt;/li&gt;&#xA;&lt;li&gt;Đồng bộ hoá dữ liệu chia sẻ, tránh race condition bằng &lt;code&gt;synchronized&lt;/code&gt; và &lt;code&gt;Concurrent&lt;/code&gt; collections&lt;/li&gt;&#xA;&lt;li&gt;Thiết kế server đa luồng: accept loop, worker threads và xử lý I/O không đồng bộ&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Kèm theo bài tập: xây dựng thread-pool server xử lý nhiều client đồng thời.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Java: Xử lý đa luồng (Multithreading)</title>
-      <link>https://ngcdt.github.io/bmtt_blog/posts/java-course-5/</link>
-      <pubDate>Tue, 30 Dec 2025 12:18:00 +0700</pubDate>
-      <guid>https://ngcdt.github.io/bmtt_blog/posts/java-course-5/</guid>
-      <description>&lt;p&gt;Bài viết trình bày ví dụ tạo Thread, chia sẻ tài nguyên và tránh race condition.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Multithreading on Blog Lập Trình Mạng</title><link>https://ngcdt.github.io/bmtt_blog/tags/multithreading/</link><description>Recent content in Multithreading on Blog Lập Trình Mạng</description><generator>Hugo</generator><language>vi-vn</language><lastBuildDate>Tue, 30 Dec 2025 12:36:00 +0700</lastBuildDate><atom:link href="https://ngcdt.github.io/bmtt_blog/tags/multithreading/index.xml" rel="self" type="application/rss+xml"/><item><title>Java: Xử lý đa luồng trong ứng dụng mạng</title><link>https://ngcdt.github.io/bmtt_blog/blog/java-multithreading/</link><pubDate>Tue, 30 Dec 2025 12:36:00 +0700</pubDate><guid>https://ngcdt.github.io/bmtt_blog/blog/java-multithreading/</guid><description>&lt;p&gt;Đa luồng là thành phần thiết yếu khi xây dựng server hiệu năng cao. Bài viết này trình bày:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Khái niệm &lt;code&gt;Thread&lt;/code&gt; và &lt;code&gt;Runnable&lt;/code&gt; trong Java&lt;/li&gt;
+&lt;li&gt;Sử dụng &lt;code&gt;ExecutorService&lt;/code&gt; để quản lý pool thread&lt;/li&gt;
+&lt;li&gt;Đồng bộ hoá dữ liệu chia sẻ, tránh race condition bằng &lt;code&gt;synchronized&lt;/code&gt; và &lt;code&gt;Concurrent&lt;/code&gt; collections&lt;/li&gt;
+&lt;li&gt;Thiết kế server đa luồng: accept loop, worker threads và xử lý I/O không đồng bộ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Kèm theo bài tập: xây dựng thread-pool server xử lý nhiều client đồng thời.&lt;/p&gt;</description></item><item><title>Java: Xử lý đa luồng (Multithreading)</title><link>https://ngcdt.github.io/bmtt_blog/posts/java-course-5/</link><pubDate>Tue, 30 Dec 2025 12:18:00 +0700</pubDate><guid>https://ngcdt.github.io/bmtt_blog/posts/java-course-5/</guid><description>&lt;p&gt;Bài viết trình bày ví dụ tạo Thread, chia sẻ tài nguyên và tránh race condition.&lt;/p&gt;</description></item></channel></rss>

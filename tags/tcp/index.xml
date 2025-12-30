@@ -1,19 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>TCP on Blog Lập Trình Mạng</title>
-    <link>https://ngcdt.github.io/bmtt_blog/tags/tcp/</link>
-    <description>Recent content in TCP on Blog Lập Trình Mạng</description>
-    <generator>Hugo</generator>
-    <language>vi-vn</language>
-    <lastBuildDate>Tue, 30 Dec 2025 12:32:00 +0700</lastBuildDate>
-    <atom:link href="https://ngcdt.github.io/bmtt_blog/tags/tcp/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Java: Socket TCP — Client/Server</title>
-      <link>https://ngcdt.github.io/bmtt_blog/blog/java-socket-tcp/</link>
-      <pubDate>Tue, 30 Dec 2025 12:32:00 +0700</pubDate>
-      <guid>https://ngcdt.github.io/bmtt_blog/blog/java-socket-tcp/</guid>
-      <description>&lt;p&gt;TCP (Transmission Control Protocol) cung cấp kết nối tin cậy giữa hai endpoint. Trong Java, &lt;code&gt;ServerSocket&lt;/code&gt; và &lt;code&gt;Socket&lt;/code&gt; là hai lớp cốt lõi để xây dựng ứng dụng TCP.&lt;/p&gt;&#xA;&lt;p&gt;Nội dung chính:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Tạo &lt;code&gt;ServerSocket&lt;/code&gt; lắng nghe cổng, chấp nhận kết nối và spawn thread xử lý từng client.&lt;/li&gt;&#xA;&lt;li&gt;Tạo &lt;code&gt;Socket&lt;/code&gt; ở phía client, nối đến server và trao đổi dữ liệu bằng luồng Input/Output.&lt;/li&gt;&#xA;&lt;li&gt;Xử lý timeout, đóng kết nối an toàn và quản lý lỗi I/O.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Ví dụ kèm mã nguồn minh hoạ server đa luồng và client đơn giản để bạn thực hành.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>TCP on Blog Lập Trình Mạng</title><link>https://ngcdt.github.io/bmtt_blog/tags/tcp/</link><description>Recent content in TCP on Blog Lập Trình Mạng</description><generator>Hugo</generator><language>vi-vn</language><lastBuildDate>Tue, 30 Dec 2025 12:32:00 +0700</lastBuildDate><atom:link href="https://ngcdt.github.io/bmtt_blog/tags/tcp/index.xml" rel="self" type="application/rss+xml"/><item><title>Java: Socket TCP — Client/Server</title><link>https://ngcdt.github.io/bmtt_blog/blog/java-socket-tcp/</link><pubDate>Tue, 30 Dec 2025 12:32:00 +0700</pubDate><guid>https://ngcdt.github.io/bmtt_blog/blog/java-socket-tcp/</guid><description>&lt;p&gt;TCP (Transmission Control Protocol) cung cấp kết nối tin cậy giữa hai endpoint. Trong Java, &lt;code&gt;ServerSocket&lt;/code&gt; và &lt;code&gt;Socket&lt;/code&gt; là hai lớp cốt lõi để xây dựng ứng dụng TCP.&lt;/p&gt;
+&lt;p&gt;Nội dung chính:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tạo &lt;code&gt;ServerSocket&lt;/code&gt; lắng nghe cổng, chấp nhận kết nối và spawn thread xử lý từng client.&lt;/li&gt;
+&lt;li&gt;Tạo &lt;code&gt;Socket&lt;/code&gt; ở phía client, nối đến server và trao đổi dữ liệu bằng luồng Input/Output.&lt;/li&gt;
+&lt;li&gt;Xử lý timeout, đóng kết nối an toàn và quản lý lỗi I/O.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ví dụ kèm mã nguồn minh hoạ server đa luồng và client đơn giản để bạn thực hành.&lt;/p&gt;</description></item></channel></rss>

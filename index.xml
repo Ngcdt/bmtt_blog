@@ -1,145 +1,85 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Chào mừng đến với Blog Lập Trình Mạng on Blog Lập Trình Mạng</title>
-    <link>https://ngcdt.github.io/bmtt_blog/</link>
-    <description>Recent content in Chào mừng đến với Blog Lập Trình Mạng on Blog Lập Trình Mạng</description>
-    <generator>Hugo</generator>
-    <language>vi-vn</language>
-    <lastBuildDate>Tue, 30 Dec 2025 12:46:00 +0700</lastBuildDate>
-    <atom:link href="https://ngcdt.github.io/bmtt_blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>So sánh: Java vs JavaScript trong lập trình mạng</title>
-      <link>https://ngcdt.github.io/bmtt_blog/blog/java-vs-javascript/</link>
-      <pubDate>Tue, 30 Dec 2025 12:46:00 +0700</pubDate>
-      <guid>https://ngcdt.github.io/bmtt_blog/blog/java-vs-javascript/</guid>
-      <description>&lt;p&gt;Java và JavaScript đều có chỗ đứng trong phát triển ứng dụng mạng, nhưng phục vụ các mục tiêu khác nhau:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Java: phù hợp cho server backend, ứng dụng doanh nghiệp, xử lý đa luồng, hiệu năng ổn định. Thư viện mạng mạnh mẽ, JVM tối ưu cho ứng dụng dài hạn.&lt;/li&gt;&#xA;&lt;li&gt;JavaScript (Node.js): phù hợp cho I/O-bound non-blocking server, phát triển nhanh, ecosystem nhiều package. Thích hợp cho microservice, real-time với WebSocket.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;So sánh nhanh:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>JavaScript: Async/Await và xử lý bất đồng bộ</title>
-      <link>https://ngcdt.github.io/bmtt_blog/blog/javascript-async-await/</link>
-      <pubDate>Tue, 30 Dec 2025 12:44:00 +0700</pubDate>
-      <guid>https://ngcdt.github.io/bmtt_blog/blog/javascript-async-await/</guid>
-      <description>&lt;p&gt;Asynchronous là phần quan trọng trong phát triển web. Bài viết trình bày:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Promise: khái niệm, chaining và xử lý lỗi&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;async&lt;/code&gt; / &lt;code&gt;await&lt;/code&gt;: viết mã bất đồng bộ giống mã đồng bộ&lt;/li&gt;&#xA;&lt;li&gt;Kết hợp với &lt;code&gt;fetch&lt;/code&gt; và xử lý luồng dữ liệu&lt;/li&gt;&#xA;&lt;li&gt;Các lỗi phổ biến: unhandled promise, blocking UI, và cách debug&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Kèm ví dụ thực tế và bài tập để hiểu sâu về luồng bất đồng bộ.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>JavaScript: Fetch API và gọi REST</title>
-      <link>https://ngcdt.github.io/bmtt_blog/blog/javascript-fetch-api/</link>
-      <pubDate>Tue, 30 Dec 2025 12:42:00 +0700</pubDate>
-      <guid>https://ngcdt.github.io/bmtt_blog/blog/javascript-fetch-api/</guid>
-      <description>&lt;p&gt;Fetch API là phương thức hiện đại để gọi HTTP từ trình duyệt. Bài viết bao gồm:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Sử dụng &lt;code&gt;fetch&lt;/code&gt; để gọi endpoint GET/POST&lt;/li&gt;&#xA;&lt;li&gt;Xử lý JSON, bắt lỗi mạng và timeout cơ bản&lt;/li&gt;&#xA;&lt;li&gt;Cách cấu hình headers (Authorization, Content-Type)&lt;/li&gt;&#xA;&lt;li&gt;Thực hành: gọi REST API và hiển thị dữ liệu lên DOM&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Mẹo tối ưu: dùng &lt;code&gt;AbortController&lt;/code&gt; để huỷ request khi cần.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>JavaScript: ES6&#43; và cú pháp hiện đại</title>
-      <link>https://ngcdt.github.io/bmtt_blog/blog/javascript-es6/</link>
-      <pubDate>Tue, 30 Dec 2025 12:40:00 +0700</pubDate>
-      <guid>https://ngcdt.github.io/bmtt_blog/blog/javascript-es6/</guid>
-      <description>&lt;p&gt;ES6+ thay đổi cách viết JavaScript, giúp mã ngắn gọn và dễ đọc hơn. Nội dung:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;let&lt;/code&gt; / &lt;code&gt;const&lt;/code&gt; vs &lt;code&gt;var&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Arrow functions, template literals, default params&lt;/li&gt;&#xA;&lt;li&gt;Destructuring, rest/spread, và modules (import/export)&lt;/li&gt;&#xA;&lt;li&gt;Promise, async/await (liên quan tới phần bất đồng bộ)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Kèm ví dụ so sánh giữa cách cũ và cú pháp hiện đại để bạn luyện tập.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>JavaScript: Cơ bản và môi trường</title>
-      <link>https://ngcdt.github.io/bmtt_blog/blog/javascript-co-ban/</link>
-      <pubDate>Tue, 30 Dec 2025 12:38:00 +0700</pubDate>
-      <guid>https://ngcdt.github.io/bmtt_blog/blog/javascript-co-ban/</guid>
-      <description>&lt;p&gt;Bài viết hướng dẫn thiết lập môi trường để phát triển JavaScript hiện đại:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Cài Node.js và npm/yarn&lt;/li&gt;&#xA;&lt;li&gt;Cấu trúc dự án, module ES và CommonJS&lt;/li&gt;&#xA;&lt;li&gt;Chạy script đơn giản trên Node và debug bằng console/inspector&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Kèm ví dụ từng bước để bạn bắt đầu viết ứng dụng web và scripts xử lý dữ liệu.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Java: Xử lý đa luồng trong ứng dụng mạng</title>
-      <link>https://ngcdt.github.io/bmtt_blog/blog/java-multithreading/</link>
-      <pubDate>Tue, 30 Dec 2025 12:36:00 +0700</pubDate>
-      <guid>https://ngcdt.github.io/bmtt_blog/blog/java-multithreading/</guid>
-      <description>&lt;p&gt;Đa luồng là thành phần thiết yếu khi xây dựng server hiệu năng cao. Bài viết này trình bày:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Khái niệm &lt;code&gt;Thread&lt;/code&gt; và &lt;code&gt;Runnable&lt;/code&gt; trong Java&lt;/li&gt;&#xA;&lt;li&gt;Sử dụng &lt;code&gt;ExecutorService&lt;/code&gt; để quản lý pool thread&lt;/li&gt;&#xA;&lt;li&gt;Đồng bộ hoá dữ liệu chia sẻ, tránh race condition bằng &lt;code&gt;synchronized&lt;/code&gt; và &lt;code&gt;Concurrent&lt;/code&gt; collections&lt;/li&gt;&#xA;&lt;li&gt;Thiết kế server đa luồng: accept loop, worker threads và xử lý I/O không đồng bộ&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Kèm theo bài tập: xây dựng thread-pool server xử lý nhiều client đồng thời.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Java: UDP và lập trình không kết nối</title>
-      <link>https://ngcdt.github.io/bmtt_blog/blog/java-udp/</link>
-      <pubDate>Tue, 30 Dec 2025 12:34:00 +0700</pubDate>
-      <guid>https://ngcdt.github.io/bmtt_blog/blog/java-udp/</guid>
-      <description>&lt;p&gt;UDP (User Datagram Protocol) là giao thức không kết nối, phù hợp cho các ứng dụng cần tốc độ và chấp nhận mất mát dữ liệu (ví dụ streaming, game).&lt;/p&gt;&#xA;&lt;p&gt;Nội dung bài:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Sự khác nhau giữa TCP và UDP&lt;/li&gt;&#xA;&lt;li&gt;Lớp &lt;code&gt;DatagramSocket&lt;/code&gt; và &lt;code&gt;DatagramPacket&lt;/code&gt; trong Java&lt;/li&gt;&#xA;&lt;li&gt;Ví dụ gửi/nhận datagram, quản lý kích thước gói và xử lý mất mát&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Áp dụng thực tế: đo lường hiệu năng và lựa chọn giao thức phù hợp cho từng bài toán.&#xA;Giải thích về UDP, DatagramSocket và ví dụ gửi/nhận.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Java: Socket TCP — Client/Server</title>
-      <link>https://ngcdt.github.io/bmtt_blog/blog/java-socket-tcp/</link>
-      <pubDate>Tue, 30 Dec 2025 12:32:00 +0700</pubDate>
-      <guid>https://ngcdt.github.io/bmtt_blog/blog/java-socket-tcp/</guid>
-      <description>&lt;p&gt;TCP (Transmission Control Protocol) cung cấp kết nối tin cậy giữa hai endpoint. Trong Java, &lt;code&gt;ServerSocket&lt;/code&gt; và &lt;code&gt;Socket&lt;/code&gt; là hai lớp cốt lõi để xây dựng ứng dụng TCP.&lt;/p&gt;&#xA;&lt;p&gt;Nội dung chính:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Tạo &lt;code&gt;ServerSocket&lt;/code&gt; lắng nghe cổng, chấp nhận kết nối và spawn thread xử lý từng client.&lt;/li&gt;&#xA;&lt;li&gt;Tạo &lt;code&gt;Socket&lt;/code&gt; ở phía client, nối đến server và trao đổi dữ liệu bằng luồng Input/Output.&lt;/li&gt;&#xA;&lt;li&gt;Xử lý timeout, đóng kết nối an toàn và quản lý lỗi I/O.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Ví dụ kèm mã nguồn minh hoạ server đa luồng và client đơn giản để bạn thực hành.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Java: Lập trình mạng — Tổng quan</title>
-      <link>https://ngcdt.github.io/bmtt_blog/blog/java-lap-trinh-mang/</link>
-      <pubDate>Tue, 30 Dec 2025 12:30:00 +0700</pubDate>
-      <guid>https://ngcdt.github.io/bmtt_blog/blog/java-lap-trinh-mang/</guid>
-      <description>&lt;p&gt;Java là một ngôn ngữ phổ biến cho phát triển ứng dụng mạng nhờ thư viện chuẩn mạnh mẽ và nền tảng JVM ổn định. Bài viết này cung cấp:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Tổng quan về mô hình Client–Server&lt;/li&gt;&#xA;&lt;li&gt;Các lớp và API chính trong Java để làm việc với mạng (Socket, ServerSocket, DatagramSocket)&lt;/li&gt;&#xA;&lt;li&gt;Các lưu ý về bảo mật, timeout và xử lý lỗi kết nối&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Ví dụ minh họa và bài tập kèm theo giúp bạn nhanh chóng xây dựng ứng dụng client/server đơn giản.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>JavaScript: Node.js — Xây dựng server đơn giản</title>
-      <link>https://ngcdt.github.io/bmtt_blog/posts/js-course-4/</link>
-      <pubDate>Tue, 30 Dec 2025 12:26:00 +0700</pubDate>
-      <guid>https://ngcdt.github.io/bmtt_blog/posts/js-course-4/</guid>
-      <description>&lt;p&gt;Ví dụ: server lắng nghe cổng, trả HTML/JSON và xử lý route cơ bản.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>JavaScript: DOM, Events và AJAX</title>
-      <link>https://ngcdt.github.io/bmtt_blog/posts/js-course-3/</link>
-      <pubDate>Tue, 30 Dec 2025 12:24:00 +0700</pubDate>
-      <guid>https://ngcdt.github.io/bmtt_blog/posts/js-course-3/</guid>
-      <description>&lt;p&gt;Ví dụ: thay đổi DOM, bắt sự kiện, gọi REST API và hiển thị dữ liệu.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>JavaScript: ES6&#43; và cú pháp hiện đại</title>
-      <link>https://ngcdt.github.io/bmtt_blog/posts/js-course-2/</link>
-      <pubDate>Tue, 30 Dec 2025 12:22:00 +0700</pubDate>
-      <guid>https://ngcdt.github.io/bmtt_blog/posts/js-course-2/</guid>
-      <description>&lt;p&gt;Ví dụ và so sánh với cú pháp cũ.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>JavaScript: Giới thiệu và môi trường phát triển</title>
-      <link>https://ngcdt.github.io/bmtt_blog/posts/js-course-1/</link>
-      <pubDate>Tue, 30 Dec 2025 12:20:00 +0700</pubDate>
-      <guid>https://ngcdt.github.io/bmtt_blog/posts/js-course-1/</guid>
-      <description>&lt;p&gt;Hướng dẫn cài Node, dùng npm, và chạy file JS cơ bản.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Java: Xử lý đa luồng (Multithreading)</title>
-      <link>https://ngcdt.github.io/bmtt_blog/posts/java-course-5/</link>
-      <pubDate>Tue, 30 Dec 2025 12:18:00 +0700</pubDate>
-      <guid>https://ngcdt.github.io/bmtt_blog/posts/java-course-5/</guid>
-      <description>&lt;p&gt;Bài viết trình bày ví dụ tạo Thread, chia sẻ tài nguyên và tránh race condition.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Java: Lập trình mạng cơ bản với Sockets</title>
-      <link>https://ngcdt.github.io/bmtt_blog/posts/java-course-4/</link>
-      <pubDate>Tue, 30 Dec 2025 12:16:00 +0700</pubDate>
-      <guid>https://ngcdt.github.io/bmtt_blog/posts/java-course-4/</guid>
-      <description>&lt;p&gt;Ví dụ: tạo server lắng nghe kết nối, client kết nối và trao đổi dữ liệu.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Java: Collections và Generic</title>
-      <link>https://ngcdt.github.io/bmtt_blog/posts/java-course-3/</link>
-      <pubDate>Tue, 30 Dec 2025 12:14:00 +0700</pubDate>
-      <guid>https://ngcdt.github.io/bmtt_blog/posts/java-course-3/</guid>
-      <description>&lt;p&gt;Bài viết đi qua ArrayList, HashMap, HashSet và ví dụ ứng dụng.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Java: OOP cơ bản — Lớp, Đối tượng và Kế thừa</title>
-      <link>https://ngcdt.github.io/bmtt_blog/posts/java-course-2/</link>
-      <pubDate>Tue, 30 Dec 2025 12:12:00 +0700</pubDate>
-      <guid>https://ngcdt.github.io/bmtt_blog/posts/java-course-2/</guid>
-      <description>&lt;p&gt;Nội dung bài viết trình bày ví dụ minh họa class, method, constructor và kế thừa.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Java: Tổng quan và cài đặt môi trường</title>
-      <link>https://ngcdt.github.io/bmtt_blog/posts/java-course-1/</link>
-      <pubDate>Tue, 30 Dec 2025 12:10:00 +0700</pubDate>
-      <guid>https://ngcdt.github.io/bmtt_blog/posts/java-course-1/</guid>
-      <description>&lt;p&gt;Nội dung: Cài JDK, thiết lập PATH, chạy &lt;code&gt;javac&lt;/code&gt; và &lt;code&gt;java&lt;/code&gt;, viết chương trình Hello World.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Giới Thiệu</title>
-      <link>https://ngcdt.github.io/bmtt_blog/about/</link>
-      <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://ngcdt.github.io/bmtt_blog/about/</guid>
-      <description>&lt;div class=&#34;profile-grid mt4 animate-entrance&#34;&gt;&#xA;&lt;div class=&#34;profile-avatar-container&#34;&gt;&#xA;&lt;img src=&#34;https://ngcdt.github.io/bmtt_blog/unnamed.jpg&#34; class=&#34;br-100 object-cover animate-float&#34; title=&#34;Trần Ngọc Đạt&#34; alt=&#34;Avatar&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;flex-auto&#34;&gt;&#xA;&lt;div class=&#34;f4 mb4&#34;&gt;&#xA;&lt;h2 class=&#34;mt0 mb3 f1 fw8 lh-title text-gradient&#34;&gt;Trần Ngọc Đạt&lt;/h2&gt;&#xA;&lt;strong class=&#34;f3 db mb1 text-secondary&#34;&gt;MSSV: 2280600644&lt;/strong&gt;&#xA;&lt;span class=&#34;f5 db text-secondary o-80&#34;&gt;Sinh viên Công nghệ Thông tin&lt;/span&gt;&#xA;&lt;/div&gt;&#xA;&lt;p class=&#34;f4 lh-copy measure-wide mb4 text-primary-light&#34;&gt;&#xA;Định hướng chuyên sâu về &lt;strong class=&#34;text-white&#34;&gt;Lập trình mạng&lt;/strong&gt; (Network Programming) và xây dựng hệ thống &lt;strong class=&#34;text-white&#34;&gt;Backend&lt;/strong&gt; hiệu năng cao.&#xA;&lt;/p&gt;&#xA;&lt;div class=&#34;mt4&#34;&gt;&#xA;&lt;h3 class=&#34;mt0 f4 mb3 text-secondary ttu tracked&#34;&gt;🚀 Kiến thức &amp; Kỹ năng&lt;/h3&gt;&#xA;&lt;div class=&#34;skill-list&#34;&gt;&#xA;&lt;span class=&#34;skill-badge&#34;&gt;&lt;span class=&#34;mr2&#34;&gt;☕&lt;/span&gt; Java Network (TCP/UDP)&lt;/span&gt;&#xA;&lt;span class=&#34;skill-badge&#34;&gt;&lt;span class=&#34;mr2&#34;&gt;🌐&lt;/span&gt; JavaScript ES6+&lt;/span&gt;&#xA;&lt;span class=&#34;skill-badge&#34;&gt;&lt;span class=&#34;mr2&#34;&gt;📡&lt;/span&gt; Client–Server Model&lt;/span&gt;&#xA;&lt;span class=&#34;skill-badge&#34;&gt;&lt;span class=&#34;mr2&#34;&gt;🔌&lt;/span&gt; HTTP &amp; REST API&lt;/span&gt;&#xA;&lt;span class=&#34;skill-badge&#34;&gt;&lt;span class=&#34;mr2&#34;&gt;🛠️&lt;/span&gt; Git &amp; Github&lt;/span&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chào mừng đến với Blog Lập Trình Mạng on Blog Lập Trình Mạng</title><link>https://ngcdt.github.io/bmtt_blog/</link><description>Recent content in Chào mừng đến với Blog Lập Trình Mạng on Blog Lập Trình Mạng</description><generator>Hugo</generator><language>vi-vn</language><lastBuildDate>Tue, 30 Dec 2025 12:46:00 +0700</lastBuildDate><atom:link href="https://ngcdt.github.io/bmtt_blog/index.xml" rel="self" type="application/rss+xml"/><item><title>So sánh: Java vs JavaScript trong lập trình mạng</title><link>https://ngcdt.github.io/bmtt_blog/blog/java-vs-javascript/</link><pubDate>Tue, 30 Dec 2025 12:46:00 +0700</pubDate><guid>https://ngcdt.github.io/bmtt_blog/blog/java-vs-javascript/</guid><description>&lt;p&gt;Java và JavaScript đều có chỗ đứng trong phát triển ứng dụng mạng, nhưng phục vụ các mục tiêu khác nhau:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Java: phù hợp cho server backend, ứng dụng doanh nghiệp, xử lý đa luồng, hiệu năng ổn định. Thư viện mạng mạnh mẽ, JVM tối ưu cho ứng dụng dài hạn.&lt;/li&gt;
+&lt;li&gt;JavaScript (Node.js): phù hợp cho I/O-bound non-blocking server, phát triển nhanh, ecosystem nhiều package. Thích hợp cho microservice, real-time với WebSocket.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So sánh nhanh:&lt;/p&gt;</description></item><item><title>JavaScript: Async/Await và xử lý bất đồng bộ</title><link>https://ngcdt.github.io/bmtt_blog/blog/javascript-async-await/</link><pubDate>Tue, 30 Dec 2025 12:44:00 +0700</pubDate><guid>https://ngcdt.github.io/bmtt_blog/blog/javascript-async-await/</guid><description>&lt;p&gt;Asynchronous là phần quan trọng trong phát triển web. Bài viết trình bày:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Promise: khái niệm, chaining và xử lý lỗi&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;async&lt;/code&gt; / &lt;code&gt;await&lt;/code&gt;: viết mã bất đồng bộ giống mã đồng bộ&lt;/li&gt;
+&lt;li&gt;Kết hợp với &lt;code&gt;fetch&lt;/code&gt; và xử lý luồng dữ liệu&lt;/li&gt;
+&lt;li&gt;Các lỗi phổ biến: unhandled promise, blocking UI, và cách debug&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Kèm ví dụ thực tế và bài tập để hiểu sâu về luồng bất đồng bộ.&lt;/p&gt;</description></item><item><title>JavaScript: Fetch API và gọi REST</title><link>https://ngcdt.github.io/bmtt_blog/blog/javascript-fetch-api/</link><pubDate>Tue, 30 Dec 2025 12:42:00 +0700</pubDate><guid>https://ngcdt.github.io/bmtt_blog/blog/javascript-fetch-api/</guid><description>&lt;p&gt;Fetch API là phương thức hiện đại để gọi HTTP từ trình duyệt. Bài viết bao gồm:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sử dụng &lt;code&gt;fetch&lt;/code&gt; để gọi endpoint GET/POST&lt;/li&gt;
+&lt;li&gt;Xử lý JSON, bắt lỗi mạng và timeout cơ bản&lt;/li&gt;
+&lt;li&gt;Cách cấu hình headers (Authorization, Content-Type)&lt;/li&gt;
+&lt;li&gt;Thực hành: gọi REST API và hiển thị dữ liệu lên DOM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mẹo tối ưu: dùng &lt;code&gt;AbortController&lt;/code&gt; để huỷ request khi cần.&lt;/p&gt;</description></item><item><title>JavaScript: ES6+ và cú pháp hiện đại</title><link>https://ngcdt.github.io/bmtt_blog/blog/javascript-es6/</link><pubDate>Tue, 30 Dec 2025 12:40:00 +0700</pubDate><guid>https://ngcdt.github.io/bmtt_blog/blog/javascript-es6/</guid><description>&lt;p&gt;ES6+ thay đổi cách viết JavaScript, giúp mã ngắn gọn và dễ đọc hơn. Nội dung:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;let&lt;/code&gt; / &lt;code&gt;const&lt;/code&gt; vs &lt;code&gt;var&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Arrow functions, template literals, default params&lt;/li&gt;
+&lt;li&gt;Destructuring, rest/spread, và modules (import/export)&lt;/li&gt;
+&lt;li&gt;Promise, async/await (liên quan tới phần bất đồng bộ)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Kèm ví dụ so sánh giữa cách cũ và cú pháp hiện đại để bạn luyện tập.&lt;/p&gt;</description></item><item><title>JavaScript: Cơ bản và môi trường</title><link>https://ngcdt.github.io/bmtt_blog/blog/javascript-co-ban/</link><pubDate>Tue, 30 Dec 2025 12:38:00 +0700</pubDate><guid>https://ngcdt.github.io/bmtt_blog/blog/javascript-co-ban/</guid><description>&lt;p&gt;Bài viết hướng dẫn thiết lập môi trường để phát triển JavaScript hiện đại:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cài Node.js và npm/yarn&lt;/li&gt;
+&lt;li&gt;Cấu trúc dự án, module ES và CommonJS&lt;/li&gt;
+&lt;li&gt;Chạy script đơn giản trên Node và debug bằng console/inspector&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Kèm ví dụ từng bước để bạn bắt đầu viết ứng dụng web và scripts xử lý dữ liệu.&lt;/p&gt;</description></item><item><title>Java: Xử lý đa luồng trong ứng dụng mạng</title><link>https://ngcdt.github.io/bmtt_blog/blog/java-multithreading/</link><pubDate>Tue, 30 Dec 2025 12:36:00 +0700</pubDate><guid>https://ngcdt.github.io/bmtt_blog/blog/java-multithreading/</guid><description>&lt;p&gt;Đa luồng là thành phần thiết yếu khi xây dựng server hiệu năng cao. Bài viết này trình bày:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Khái niệm &lt;code&gt;Thread&lt;/code&gt; và &lt;code&gt;Runnable&lt;/code&gt; trong Java&lt;/li&gt;
+&lt;li&gt;Sử dụng &lt;code&gt;ExecutorService&lt;/code&gt; để quản lý pool thread&lt;/li&gt;
+&lt;li&gt;Đồng bộ hoá dữ liệu chia sẻ, tránh race condition bằng &lt;code&gt;synchronized&lt;/code&gt; và &lt;code&gt;Concurrent&lt;/code&gt; collections&lt;/li&gt;
+&lt;li&gt;Thiết kế server đa luồng: accept loop, worker threads và xử lý I/O không đồng bộ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Kèm theo bài tập: xây dựng thread-pool server xử lý nhiều client đồng thời.&lt;/p&gt;</description></item><item><title>Java: UDP và lập trình không kết nối</title><link>https://ngcdt.github.io/bmtt_blog/blog/java-udp/</link><pubDate>Tue, 30 Dec 2025 12:34:00 +0700</pubDate><guid>https://ngcdt.github.io/bmtt_blog/blog/java-udp/</guid><description>&lt;p&gt;UDP (User Datagram Protocol) là giao thức không kết nối, phù hợp cho các ứng dụng cần tốc độ và chấp nhận mất mát dữ liệu (ví dụ streaming, game).&lt;/p&gt;
+&lt;p&gt;Nội dung bài:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sự khác nhau giữa TCP và UDP&lt;/li&gt;
+&lt;li&gt;Lớp &lt;code&gt;DatagramSocket&lt;/code&gt; và &lt;code&gt;DatagramPacket&lt;/code&gt; trong Java&lt;/li&gt;
+&lt;li&gt;Ví dụ gửi/nhận datagram, quản lý kích thước gói và xử lý mất mát&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Áp dụng thực tế: đo lường hiệu năng và lựa chọn giao thức phù hợp cho từng bài toán.
+Giải thích về UDP, DatagramSocket và ví dụ gửi/nhận.&lt;/p&gt;</description></item><item><title>Java: Socket TCP — Client/Server</title><link>https://ngcdt.github.io/bmtt_blog/blog/java-socket-tcp/</link><pubDate>Tue, 30 Dec 2025 12:32:00 +0700</pubDate><guid>https://ngcdt.github.io/bmtt_blog/blog/java-socket-tcp/</guid><description>&lt;p&gt;TCP (Transmission Control Protocol) cung cấp kết nối tin cậy giữa hai endpoint. Trong Java, &lt;code&gt;ServerSocket&lt;/code&gt; và &lt;code&gt;Socket&lt;/code&gt; là hai lớp cốt lõi để xây dựng ứng dụng TCP.&lt;/p&gt;
+&lt;p&gt;Nội dung chính:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tạo &lt;code&gt;ServerSocket&lt;/code&gt; lắng nghe cổng, chấp nhận kết nối và spawn thread xử lý từng client.&lt;/li&gt;
+&lt;li&gt;Tạo &lt;code&gt;Socket&lt;/code&gt; ở phía client, nối đến server và trao đổi dữ liệu bằng luồng Input/Output.&lt;/li&gt;
+&lt;li&gt;Xử lý timeout, đóng kết nối an toàn và quản lý lỗi I/O.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ví dụ kèm mã nguồn minh hoạ server đa luồng và client đơn giản để bạn thực hành.&lt;/p&gt;</description></item><item><title>Java: Lập trình mạng — Tổng quan</title><link>https://ngcdt.github.io/bmtt_blog/blog/java-lap-trinh-mang/</link><pubDate>Tue, 30 Dec 2025 12:30:00 +0700</pubDate><guid>https://ngcdt.github.io/bmtt_blog/blog/java-lap-trinh-mang/</guid><description>&lt;p&gt;Java là một ngôn ngữ phổ biến cho phát triển ứng dụng mạng nhờ thư viện chuẩn mạnh mẽ và nền tảng JVM ổn định. Bài viết này cung cấp:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tổng quan về mô hình Client–Server&lt;/li&gt;
+&lt;li&gt;Các lớp và API chính trong Java để làm việc với mạng (Socket, ServerSocket, DatagramSocket)&lt;/li&gt;
+&lt;li&gt;Các lưu ý về bảo mật, timeout và xử lý lỗi kết nối&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ví dụ minh họa và bài tập kèm theo giúp bạn nhanh chóng xây dựng ứng dụng client/server đơn giản.&lt;/p&gt;</description></item><item><title>JavaScript: Node.js — Xây dựng server đơn giản</title><link>https://ngcdt.github.io/bmtt_blog/posts/js-course-4/</link><pubDate>Tue, 30 Dec 2025 12:26:00 +0700</pubDate><guid>https://ngcdt.github.io/bmtt_blog/posts/js-course-4/</guid><description>&lt;p&gt;Ví dụ: server lắng nghe cổng, trả HTML/JSON và xử lý route cơ bản.&lt;/p&gt;</description></item><item><title>JavaScript: DOM, Events và AJAX</title><link>https://ngcdt.github.io/bmtt_blog/posts/js-course-3/</link><pubDate>Tue, 30 Dec 2025 12:24:00 +0700</pubDate><guid>https://ngcdt.github.io/bmtt_blog/posts/js-course-3/</guid><description>&lt;p&gt;Ví dụ: thay đổi DOM, bắt sự kiện, gọi REST API và hiển thị dữ liệu.&lt;/p&gt;</description></item><item><title>JavaScript: ES6+ và cú pháp hiện đại</title><link>https://ngcdt.github.io/bmtt_blog/posts/js-course-2/</link><pubDate>Tue, 30 Dec 2025 12:22:00 +0700</pubDate><guid>https://ngcdt.github.io/bmtt_blog/posts/js-course-2/</guid><description>&lt;p&gt;Ví dụ và so sánh với cú pháp cũ.&lt;/p&gt;</description></item><item><title>JavaScript: Giới thiệu và môi trường phát triển</title><link>https://ngcdt.github.io/bmtt_blog/posts/js-course-1/</link><pubDate>Tue, 30 Dec 2025 12:20:00 +0700</pubDate><guid>https://ngcdt.github.io/bmtt_blog/posts/js-course-1/</guid><description>&lt;p&gt;Hướng dẫn cài Node, dùng npm, và chạy file JS cơ bản.&lt;/p&gt;</description></item><item><title>Java: Xử lý đa luồng (Multithreading)</title><link>https://ngcdt.github.io/bmtt_blog/posts/java-course-5/</link><pubDate>Tue, 30 Dec 2025 12:18:00 +0700</pubDate><guid>https://ngcdt.github.io/bmtt_blog/posts/java-course-5/</guid><description>&lt;p&gt;Bài viết trình bày ví dụ tạo Thread, chia sẻ tài nguyên và tránh race condition.&lt;/p&gt;</description></item><item><title>Java: Lập trình mạng cơ bản với Sockets</title><link>https://ngcdt.github.io/bmtt_blog/posts/java-course-4/</link><pubDate>Tue, 30 Dec 2025 12:16:00 +0700</pubDate><guid>https://ngcdt.github.io/bmtt_blog/posts/java-course-4/</guid><description>&lt;p&gt;Ví dụ: tạo server lắng nghe kết nối, client kết nối và trao đổi dữ liệu.&lt;/p&gt;</description></item><item><title>Java: Collections và Generic</title><link>https://ngcdt.github.io/bmtt_blog/posts/java-course-3/</link><pubDate>Tue, 30 Dec 2025 12:14:00 +0700</pubDate><guid>https://ngcdt.github.io/bmtt_blog/posts/java-course-3/</guid><description>&lt;p&gt;Bài viết đi qua ArrayList, HashMap, HashSet và ví dụ ứng dụng.&lt;/p&gt;</description></item><item><title>Java: OOP cơ bản — Lớp, Đối tượng và Kế thừa</title><link>https://ngcdt.github.io/bmtt_blog/posts/java-course-2/</link><pubDate>Tue, 30 Dec 2025 12:12:00 +0700</pubDate><guid>https://ngcdt.github.io/bmtt_blog/posts/java-course-2/</guid><description>&lt;p&gt;Nội dung bài viết trình bày ví dụ minh họa class, method, constructor và kế thừa.&lt;/p&gt;</description></item><item><title>Java: Tổng quan và cài đặt môi trường</title><link>https://ngcdt.github.io/bmtt_blog/posts/java-course-1/</link><pubDate>Tue, 30 Dec 2025 12:10:00 +0700</pubDate><guid>https://ngcdt.github.io/bmtt_blog/posts/java-course-1/</guid><description>&lt;p&gt;Nội dung: Cài JDK, thiết lập PATH, chạy &lt;code&gt;javac&lt;/code&gt; và &lt;code&gt;java&lt;/code&gt;, viết chương trình Hello World.&lt;/p&gt;</description></item><item><title>Giới Thiệu</title><link>https://ngcdt.github.io/bmtt_blog/about/</link><pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate><guid>https://ngcdt.github.io/bmtt_blog/about/</guid><description>&lt;div class="profile-grid mt4 animate-entrance"&gt;
+&lt;div class="profile-avatar-container"&gt;
+&lt;img src="https://ngcdt.github.io/bmtt_blog/unnamed.jpg" class="br-100 object-cover animate-float" title="Trần Ngọc Đạt" alt="Avatar"&gt;
+&lt;/div&gt;
+&lt;div class="flex-auto"&gt;
+&lt;div class="f4 mb4"&gt;
+&lt;h2 class="mt0 mb3 f1 fw8 lh-title text-gradient"&gt;Trần Ngọc Đạt&lt;/h2&gt;
+&lt;strong class="f3 db mb1 text-secondary"&gt;MSSV: 2280600644&lt;/strong&gt;
+&lt;span class="f5 db text-secondary o-80"&gt;Sinh viên Công nghệ Thông tin&lt;/span&gt;
+&lt;/div&gt;
+&lt;p class="f4 lh-copy measure-wide mb4 text-primary-light"&gt;
+Định hướng chuyên sâu về &lt;strong class="text-white"&gt;Lập trình mạng&lt;/strong&gt; (Network Programming) và xây dựng hệ thống &lt;strong class="text-white"&gt;Backend&lt;/strong&gt; hiệu năng cao.
+&lt;/p&gt;
+&lt;div class="mt4"&gt;
+&lt;h3 class="mt0 f4 mb3 text-secondary ttu tracked"&gt;🚀 Kiến thức &amp; Kỹ năng&lt;/h3&gt;
+&lt;div class="skill-list"&gt;
+&lt;span class="skill-badge"&gt;&lt;span class="mr2"&gt;☕&lt;/span&gt; Java Network (TCP/UDP)&lt;/span&gt;
+&lt;span class="skill-badge"&gt;&lt;span class="mr2"&gt;🌐&lt;/span&gt; JavaScript ES6+&lt;/span&gt;
+&lt;span class="skill-badge"&gt;&lt;span class="mr2"&gt;📡&lt;/span&gt; Client–Server Model&lt;/span&gt;
+&lt;span class="skill-badge"&gt;&lt;span class="mr2"&gt;🔌&lt;/span&gt; HTTP &amp; REST API&lt;/span&gt;
+&lt;span class="skill-badge"&gt;&lt;span class="mr2"&gt;🛠️&lt;/span&gt; Git &amp; Github&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item></channel></rss>

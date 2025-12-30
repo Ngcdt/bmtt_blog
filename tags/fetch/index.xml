@@ -1,19 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Fetch on Blog Lập Trình Mạng</title>
-    <link>https://ngcdt.github.io/bmtt_blog/tags/fetch/</link>
-    <description>Recent content in Fetch on Blog Lập Trình Mạng</description>
-    <generator>Hugo</generator>
-    <language>vi-vn</language>
-    <lastBuildDate>Tue, 30 Dec 2025 12:42:00 +0700</lastBuildDate>
-    <atom:link href="https://ngcdt.github.io/bmtt_blog/tags/fetch/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>JavaScript: Fetch API và gọi REST</title>
-      <link>https://ngcdt.github.io/bmtt_blog/blog/javascript-fetch-api/</link>
-      <pubDate>Tue, 30 Dec 2025 12:42:00 +0700</pubDate>
-      <guid>https://ngcdt.github.io/bmtt_blog/blog/javascript-fetch-api/</guid>
-      <description>&lt;p&gt;Fetch API là phương thức hiện đại để gọi HTTP từ trình duyệt. Bài viết bao gồm:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Sử dụng &lt;code&gt;fetch&lt;/code&gt; để gọi endpoint GET/POST&lt;/li&gt;&#xA;&lt;li&gt;Xử lý JSON, bắt lỗi mạng và timeout cơ bản&lt;/li&gt;&#xA;&lt;li&gt;Cách cấu hình headers (Authorization, Content-Type)&lt;/li&gt;&#xA;&lt;li&gt;Thực hành: gọi REST API và hiển thị dữ liệu lên DOM&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Mẹo tối ưu: dùng &lt;code&gt;AbortController&lt;/code&gt; để huỷ request khi cần.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fetch on Blog Lập Trình Mạng</title><link>https://ngcdt.github.io/bmtt_blog/tags/fetch/</link><description>Recent content in Fetch on Blog Lập Trình Mạng</description><generator>Hugo</generator><language>vi-vn</language><lastBuildDate>Tue, 30 Dec 2025 12:42:00 +0700</lastBuildDate><atom:link href="https://ngcdt.github.io/bmtt_blog/tags/fetch/index.xml" rel="self" type="application/rss+xml"/><item><title>JavaScript: Fetch API và gọi REST</title><link>https://ngcdt.github.io/bmtt_blog/blog/javascript-fetch-api/</link><pubDate>Tue, 30 Dec 2025 12:42:00 +0700</pubDate><guid>https://ngcdt.github.io/bmtt_blog/blog/javascript-fetch-api/</guid><description>&lt;p&gt;Fetch API là phương thức hiện đại để gọi HTTP từ trình duyệt. Bài viết bao gồm:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sử dụng &lt;code&gt;fetch&lt;/code&gt; để gọi endpoint GET/POST&lt;/li&gt;
+&lt;li&gt;Xử lý JSON, bắt lỗi mạng và timeout cơ bản&lt;/li&gt;
+&lt;li&gt;Cách cấu hình headers (Authorization, Content-Type)&lt;/li&gt;
+&lt;li&gt;Thực hành: gọi REST API và hiển thị dữ liệu lên DOM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mẹo tối ưu: dùng &lt;code&gt;AbortController&lt;/code&gt; để huỷ request khi cần.&lt;/p&gt;</description></item></channel></rss>
